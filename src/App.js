@@ -37,7 +37,7 @@ class App extends React.PureComponent {
   }
 
   componentDidMount () {
-    fetch('./billboard_1965-2015.json')
+    fetch('')
       .then(response => response.json())
       .then((allSongs) => {
         const songsById = allSongs.reduce((byId, song) => {
