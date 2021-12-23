@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "core-js": "3",
-    "minisearch": "^3.2.0"
+    "minisearch": "file:.."
   }
 }
